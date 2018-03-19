@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    
+    
+    <head>
+        <title>Do you even Lorem?</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link type="text/css" rel="stylesheet"  href="/stylesheets/styles.css"></link>
+    </head>
+    
+    <body>
+        
+        <div class="banner">
+            <h1><a href="/">Welcome to Gainsville</a></h1>
+            A lorem ipsum generator for body builders
+            <!--<img id="zyzz" src="https://t00.deviantart.net/_xIDQj254kOUMOHEgZNLPT2Q8Js=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre00/7887/th/pre/f/2013/020/c/3/zyzz_by_loupu-d5ituzq.png">-->
+        </div>
+        
+        <div class="container">
+            
+            <% if (text && text.length > 0) { %>
+            
+               <h4>Nice workout bro, now let's go hit the showers ;)</h4>
+               
+               <hr>
+               
+                <div id="generatedText">
+                    <% text.forEach(function(paragraph) { %>
+                        
+                        <p><%= paragraph %></p>
+                        
+                    <% }) %>
+                </div>
+                
+                <div id="form">
+                    Again? Not big enough yet? Up the tren.  
+                    <form action="/generate" method="POST">
+                        <input type="number" name="numOfParagraphs">
+                        <button id="butt">Lift</button>
+                    </form>
+                </div>
+                
+            
+            <% } else { %>
+                
+                <div id="generatedText">
+                    <p>Wait, how'd you get here? Get outta here. Go check in with the front desk. </p>
+                </div>
+                
+                <p><a href="/">Go back</a></p>
+                
+            <% } %>
+        
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        
+    </body>
+</html>

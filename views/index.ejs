@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    
+    
+    <head>
+        <title>Do you even Lorem?</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link type="text/css" rel="stylesheet"  href="/stylesheets/styles.css"></link>
+    </head>
+    
+    <body>
+        
+        <div class="banner">
+            <h1><a href="/">Welcome to Gainsville</a></h1>
+            A lorem ipsum generator for body builders
+            <!--<img id="zyzz" src="https://t00.deviantart.net/_xIDQj254kOUMOHEgZNLPT2Q8Js=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre00/7887/th/pre/f/2013/020/c/3/zyzz_by_loupu-d5ituzq.png">-->
+        </div>
+        
+        
+        <div class="container">
+        
+        
+            <h4>Here's some warmup sets for you bro.</h4>
+            
+            <hr>
+            
+            <div id="generatedText">
+                <% text.forEach(function(paragraph) { %>
+                    
+                    <p><%= paragraph %></p>
+                    
+                <% }) %>
+                
+            </div>
+            
+            <div id="form">
+                How many plates you need?
+                <form action="/generate" method="POST">
+                    <input type="number" name="numOfParagraphs">
+                    <button id="butt">Lift</button>
+                </form>
+            </div>
+            
+            
+        </div>
+        
+        
+    </body>
+</html>
+
+
+
+

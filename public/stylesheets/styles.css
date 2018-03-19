@@ -1,0 +1,93 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: #90a4ae;
+   margin: 0 0;
+   background-image: url("http://i.imgur.com/Qyc6Sno.jpg");
+   background-position: top;
+   background-size: cover;
+   color: white;
+   text-shadow: 1px 2px 1px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 1px 10px rgba(0, 0, 0, 1);
+    margin-bottom: 0;
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h4 {
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+
+.container {
+    width: 45%;
+	margin:  0 auto;
+	font-size: 1.25em; 
+	margin-bottom: 2em;
+	background-color: rgba(49,58,63, .75);
+	border: 1px solid black;
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+#generatedText {
+    margin-top: .5em;
+}
+
+#form {
+    text-align: center;
+    margin-top: 1.33em;
+    margin-bottom: .5em;
+   
+}
+
+#arnold {
+    height: 25%;
+    width: 25%;
+}
+
+#zyzz {
+    float: right;
+}
+
+.banner{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+/*#butt {*/
+/*  outline:none;*/
+/*  height: 2em;*/
+/*  text-align: center;*/
+/*  width: 5em;*/
+/*  border-radius:40px;*/
+/*  background-color: gray;*/
+/*  border: 1px solid black;*/
+/*  color: white;*/
+/*  letter-spacing:1px;*/
+/*  text-shadow:0;*/
+/*  text-transform: uppercase;*/
+/*}*/
